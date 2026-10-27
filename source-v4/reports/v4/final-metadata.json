@@ -1,0 +1,197 @@
+{
+  "file": "out/FallSense_Cinematic_Intro_V4_Smooth3D_1080p60.mp4",
+  "sha256": "730e3ba4854372144f62b7219b1a126af5e270b4ab9a1111dbb7358afd44b7f4",
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 42,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "60/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 660480,
+        "duration": "43.000000",
+        "bit_rate": "3516490",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2580",
+        "nb_read_frames": "2580",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2064384,
+        "duration": "43.008000",
+        "bit_rate": "317375",
+        "nb_frames": "2016",
+        "nb_read_frames": "2016",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "out/FallSense_Cinematic_Intro_V4_Smooth3D_1080p60.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "43.008000",
+      "size": "20676255",
+      "bit_rate": "3846029",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.103",
+        "comment": "Made with Remotion 4.0.373"
+      }
+    }
+  },
+  "fullDecode": "passed",
+  "motionDesign": "continuous C2 global paths with quaternion camera",
+  "boundaryNeighborhoods": 21,
+  "sampledFrames": [
+    {
+      "second": 0,
+      "mean": 209.32954282407408,
+      "std": 35.078073898451855,
+      "sha256": "f6d4d17ce25d690a8aee064e31dbe21fb3df0dd156c9067f9e706123d05fdf95"
+    },
+    {
+      "second": 2.7,
+      "mean": 236.6809722222222,
+      "std": 18.734095513339632,
+      "sha256": "6d9479d229de20e9458d4f96714153136316b927706c787d5b507642d0d82f51"
+    },
+    {
+      "second": 9.9,
+      "mean": 238.55653356481483,
+      "std": 20.64264533122788,
+      "sha256": "710a99f5c8e5645d7130de58ef87984508300e8d21654510b755f223dbf2aabe"
+    },
+    {
+      "second": 17.3,
+      "mean": 234.6175636574074,
+      "std": 36.958469066384524,
+      "sha256": "f69e73762431552eac429ed319c1abdb7e412bde6492ce7290bf7a1cab287f38"
+    },
+    {
+      "second": 24.9,
+      "mean": 235.35336805555556,
+      "std": 33.47162015132148,
+      "sha256": "60dcd6a7f5e33f9ed0a4e74b50fc79bc84bd301571dac8acecb3d44314f043c3"
+    },
+    {
+      "second": 35.5,
+      "mean": 237.8813715277778,
+      "std": 22.98918969417664,
+      "sha256": "fbf011390711b384fe4ab49ab9012bb6fc8e102fb721ca760631e40ec5f1120f"
+    },
+    {
+      "second": 42.95,
+      "mean": 241.94221064814815,
+      "std": 33.51284535680805,
+      "sha256": "df87c94385c91db398d6835abde1fbfcedd7353eb3cfdb8cfc614caa92a7d2db"
+    }
+  ],
+  "peakDb": -11.1,
+  "blackGapCheck": "FFmpeg blackdetect on every decoded frame: no >=98%-black interval at threshold 0.02 lasting >=16ms",
+  "nativeMacTest": false
+}

@@ -1,0 +1,150 @@
+{
+  "interpretation": "V3 discontinuities include deliberate editorial cuts; these are not decoded dropped frames. V4 changes to a continuous camera and C2 object paths, intentionally reducing that discontinuity.",
+  "cameraV3": {
+    "maxUnitsPerFrame": 7.614607170303834,
+    "maxDeltaVelocity": 7.629379345392063,
+    "maxDiscreteJerk": 15.243434066841202
+  },
+  "cameraV4": {
+    "maxUnitsPerFrame": 0.08213871370505464,
+    "maxDeltaVelocity": 0.0021072862393957934,
+    "maxDiscreteJerk": 0.00016906213040233546
+  },
+  "pageV3": {
+    "maxUnitsPerFrame": 0.038956571657676076,
+    "maxDeltaVelocity": 0.038956571657676076,
+    "maxDiscreteJerk": 0.03998168464790819
+  },
+  "pageV4": {
+    "maxUnitsPerFrame": 0.016737512867788684,
+    "maxDeltaVelocity": 0.00046007877344811376,
+    "maxDiscreteJerk": 0.00003932608566437068
+  },
+  "v3LargeCameraCuts": [
+    {
+      "frame": 45,
+      "seconds": 0.75,
+      "previousToNextDistance": 1.2593757104735794
+    },
+    {
+      "frame": 91,
+      "seconds": 1.5166666666666666,
+      "previousToNextDistance": 1.6823346259159633
+    },
+    {
+      "frame": 135,
+      "seconds": 2.25,
+      "previousToNextDistance": 7.614607170303834
+    },
+    {
+      "frame": 290,
+      "seconds": 4.833333333333333,
+      "previousToNextDistance": 1.4637287295911665
+    },
+    {
+      "frame": 336,
+      "seconds": 5.6,
+      "previousToNextDistance": 3.649657518178931
+    },
+    {
+      "frame": 402,
+      "seconds": 6.7,
+      "previousToNextDistance": 1.252996408614167
+    },
+    {
+      "frame": 493,
+      "seconds": 8.216666666666667,
+      "previousToNextDistance": 4.096339829652808
+    },
+    {
+      "frame": 582,
+      "seconds": 9.7,
+      "previousToNextDistance": 1.459449794226103
+    },
+    {
+      "frame": 649,
+      "seconds": 10.816666666666666,
+      "previousToNextDistance": 5.800112067882826
+    },
+    {
+      "frame": 694,
+      "seconds": 11.566666666666666,
+      "previousToNextDistance": 2.2057142461693386
+    },
+    {
+      "frame": 759,
+      "seconds": 12.65,
+      "previousToNextDistance": 2.7092211620878133
+    },
+    {
+      "frame": 1006,
+      "seconds": 16.766666666666666,
+      "previousToNextDistance": 4.6327637539594
+    },
+    {
+      "frame": 1073,
+      "seconds": 17.883333333333333,
+      "previousToNextDistance": 1.49666197732582
+    },
+    {
+      "frame": 1151,
+      "seconds": 19.183333333333334,
+      "previousToNextDistance": 1.7029350480741288
+    },
+    {
+      "frame": 1229,
+      "seconds": 20.483333333333334,
+      "previousToNextDistance": 4.100309073191729
+    },
+    {
+      "frame": 1296,
+      "seconds": 21.6,
+      "previousToNextDistance": 4.107665625810549
+    },
+    {
+      "frame": 1399,
+      "seconds": 23.316666666666666,
+      "previousToNextDistance": 1.6560495161679187
+    },
+    {
+      "frame": 1542,
+      "seconds": 25.7,
+      "previousToNextDistance": 1.6560495161679187
+    },
+    {
+      "frame": 1721,
+      "seconds": 28.683333333333334,
+      "previousToNextDistance": 1.6560495161679187
+    },
+    {
+      "frame": 1900,
+      "seconds": 31.666666666666668,
+      "previousToNextDistance": 3.9258756984907204
+    },
+    {
+      "frame": 1989,
+      "seconds": 33.15,
+      "previousToNextDistance": 1.98844862356531
+    },
+    {
+      "frame": 2079,
+      "seconds": 34.65,
+      "previousToNextDistance": 6.9473178609380275
+    },
+    {
+      "frame": 2157,
+      "seconds": 35.95,
+      "previousToNextDistance": 2.421383785798936
+    },
+    {
+      "frame": 2258,
+      "seconds": 37.63333333333333,
+      "previousToNextDistance": 1.1276475851736232
+    },
+    {
+      "frame": 2370,
+      "seconds": 39.5,
+      "previousToNextDistance": 0.5
+    }
+  ]
+}

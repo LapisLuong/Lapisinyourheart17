@@ -1,0 +1,121 @@
+{
+  "source": "public/audio/user-supplied.m4a",
+  "sha256": "a0bc2c9ce65fb68802149ae17096904a87c323c3db0fc63989540616ea655638",
+  "method": "positive log-spectral flux, local maxima, 160ms refractory; quantized at 60fps",
+  "estimatedPulseBpm": 107.67,
+  "humanBeatValidation": false,
+  "markers": [
+    {
+      "frame": 91,
+      "seconds": 1.5166666666666666,
+      "purpose": "L\u1eddi m\u1eddi / macro m\u1eaft",
+      "nearestMeasuredTransientSeconds": 1.5209,
+      "offsetMs": -4.24
+    },
+    {
+      "frame": 135,
+      "seconds": 2.25,
+      "purpose": "\u0110\u1ebfn s\u00e2n kh\u1ea5u",
+      "nearestMeasuredTransientSeconds": 2.2523,
+      "offsetMs": -2.336
+    },
+    {
+      "frame": 290,
+      "seconds": 4.833333333333333,
+      "purpose": "C\u1eed ch\u1ec9",
+      "nearestMeasuredTransientSeconds": 4.8414,
+      "offsetMs": -8.027
+    },
+    {
+      "frame": 582,
+      "seconds": 9.7,
+      "purpose": "Nh\u1eadn di\u1ec7n th\u01b0\u01a1ng hi\u1ec7u",
+      "nearestMeasuredTransientSeconds": 9.7059,
+      "offsetMs": -5.941
+    },
+    {
+      "frame": 759,
+      "seconds": 12.65,
+      "purpose": "Overview",
+      "nearestMeasuredTransientSeconds": 12.6549,
+      "offsetMs": -4.875
+    },
+    {
+      "frame": 1006,
+      "seconds": 16.766666666666666,
+      "purpose": "B\u1eaft \u0111\u1ea7u chuy\u1ec3n Live Monitor",
+      "nearestMeasuredTransientSeconds": 16.7648,
+      "offsetMs": 1.859
+    },
+    {
+      "frame": 1151,
+      "seconds": 19.183333333333334,
+      "purpose": "Live Monitor hero",
+      "nearestMeasuredTransientSeconds": 19.1797,
+      "offsetMs": 3.651
+    },
+    {
+      "frame": 1296,
+      "seconds": 21.6,
+      "purpose": "B\u1eaft \u0111\u1ea7u chuy\u1ec3n Training",
+      "nearestMeasuredTransientSeconds": 21.6062,
+      "offsetMs": -6.168
+    },
+    {
+      "frame": 1475,
+      "seconds": 24.583333333333332,
+      "purpose": "Training hero",
+      "nearestMeasuredTransientSeconds": 24.5899,
+      "offsetMs": -6.599
+    },
+    {
+      "frame": 1542,
+      "seconds": 25.7,
+      "purpose": "B\u1eaft \u0111\u1ea7u chuy\u1ec3n Incidents",
+      "nearestMeasuredTransientSeconds": 25.7045,
+      "offsetMs": -4.49
+    },
+    {
+      "frame": 1654,
+      "seconds": 27.566666666666666,
+      "purpose": "Incidents hero",
+      "nearestMeasuredTransientSeconds": 27.5621,
+      "offsetMs": 4.58
+    },
+    {
+      "frame": 1721,
+      "seconds": 28.683333333333334,
+      "purpose": "B\u1eaft \u0111\u1ea7u chuy\u1ec3n Settings",
+      "nearestMeasuredTransientSeconds": 28.6883,
+      "offsetMs": -4.921
+    },
+    {
+      "frame": 1833,
+      "seconds": 30.55,
+      "purpose": "Settings hero",
+      "nearestMeasuredTransientSeconds": 30.5459,
+      "offsetMs": 4.15
+    },
+    {
+      "frame": 1900,
+      "seconds": 31.666666666666668,
+      "purpose": "B\u1eaft \u0111\u1ea7u h\u1ed9i t\u1ee5 khi\u00ean",
+      "nearestMeasuredTransientSeconds": 31.6604,
+      "offsetMs": 6.259
+    },
+    {
+      "frame": 2157,
+      "seconds": 35.95,
+      "purpose": "Mascot tr\u1edf l\u1ea1i",
+      "nearestMeasuredTransientSeconds": 35.9561,
+      "offsetMs": -6.1
+    },
+    {
+      "frame": 2370,
+      "seconds": 39.5,
+      "purpose": "Kh\u00f3a ti\u00eau \u0111\u1ec1",
+      "nearestMeasuredTransientSeconds": 39.4971,
+      "offsetMs": 2.857
+    }
+  ]
+}

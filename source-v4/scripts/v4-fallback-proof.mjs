@@ -1,0 +1,3 @@
+import {bundle} from '@remotion/bundler';import {openBrowser,selectComposition,renderStill} from '@remotion/renderer';import {resolveBrowser} from './browser.mjs';
+const serveUrl=await bundle({entryPoint:'src/v4/index.tsx'});const browser=await openBrowser('chrome',{browserExecutable:resolveBrowser()});
+try{const inputProps={forceFallback:true};const composition=await selectComposition({serveUrl,id:'FallSenseCinematicIntroV4',inputProps,puppeteerInstance:browser});await renderStill({serveUrl,composition,inputProps,puppeteerInstance:browser,frame:1100,output:'out/v4/Fallback_Proof.png',scale:.5});console.log('Explicit 2.5D recovery preview: passed (not final delivery)');}finally{await browser.close({silent:true});}

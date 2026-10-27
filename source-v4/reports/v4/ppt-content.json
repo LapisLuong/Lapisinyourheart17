@@ -1,0 +1,186 @@
+{
+  "slides": [
+    {
+      "kind": "title",
+      "eyebrow": "NHÓM 06 · IE005.R11.CNVN",
+      "title": "Giới thiệu ngành\nCông nghệ thông tin",
+      "items": [
+        "FallSense — Hệ thống hỗ trợ giám sát\nvà cảnh báo té ngã bằng camera",
+        "TS. Nguyễn Tấn Hoàng Phước",
+        "Trường Đại học Công nghệ Thông tin – ĐHQG-HCM"
+      ],
+      "note": "Giới thiệu sản phẩm học tập FallSense. Tên học phần và giảng viên được giữ theo slide gốc.",
+      "source": "Bài gốc, slide 1"
+    },
+    {
+      "eyebrow": "01 / BỐI CẢNH",
+      "title": "Khi một cú ngã\nkhông được nhận ra",
+      "items": [
+        "684.000 ca tử vong/năm\nƯớc tính toàn cầu · WHO 2021",
+        "53/66 không tự đứng dậy\nSau ít nhất một lần ngã (~80%)",
+        "20/66 nằm sàn ≥ 1 giờ\nTrong nhóm đã ngã (~30%)"
+      ],
+      "note": "Fleming & Brayne nghiên cứu người trên 90 tuổi: 110 người tham gia, 66 người đã ngã. Không khái quát tỷ lệ cho cộng đồng. Giữ số liệu WHO 2021; thông tin cập nhật WHO trong ghi chú gốc chưa được xác minh trực tiếp.",
+      "source": "WHO (2021), Falls · Fleming & Brayne (2008), BMJ 337:a2227"
+    },
+    {
+      "eyebrow": "02 / PHẠM VI",
+      "title": "Hỗ trợ quan sát.\nPhản hồi có trách nhiệm.",
+      "items": [
+        "Camera trong trình duyệt\nTheo dõi dấu hiệu té ngã",
+        "Phản hồi trên giao diện\nEmail cần dịch vụ được cấu hình",
+        "Nguyên mẫu học tập\nKhông phải thiết bị y tế"
+      ],
+      "note": "Không dự đoán té ngã trước sự kiện; không chẩn đoán và không tự gọi cấp cứu. Chưa kiểm thử email; mạng và backend là điều kiện cần.",
+      "source": "Bài gốc 3 · Tài liệu góp ý 4"
+    },
+    {
+      "kind": "flow",
+      "eyebrow": "03 / LUỒNG XỬ LÝ",
+      "title": "Từ hình ảnh\nđến phản hồi",
+      "items": [
+        "Camera",
+        "MediaPipe\n33 điểm mốc",
+        "Đặc trưng\nFall Score",
+        "Máy trạng thái",
+        "Cảnh báo\nPhản hồi"
+      ],
+      "note": "Sơ đồ khái niệm: nhận tư thế, tính đặc trưng và xét diễn biến theo thời gian. MediaPipe không tự trả kết luận ngã.",
+      "source": "Bài gốc 4 · Tài liệu góp ý 5"
+    },
+    {
+      "kind": "ui",
+      "eyebrow": "04 / GIAO DIỆN THẬT",
+      "title": "Nhìn thấy điều hệ thống đang thấy",
+      "items": [
+        "01 Camera / mô phỏng",
+        "02 Khung xương",
+        "03 ID theo dõi tạm thời",
+        "04 Fall Score: điểm 0–1",
+        "05 Trạng thái hiện tại"
+      ],
+      "note": "Ảnh được cung cấp là DEMO SIM. ID không phải danh tính sinh trắc. Phần trăm trên giao diện là cách hiển thị điểm, không phải xác suất hoặc độ chính xác.",
+      "source": "assets/live-monitor.jpg · Ảnh tham chiếu, không phải thử nghiệm trực tiếp"
+    },
+    {
+      "eyebrow": "05 / CẢNH BÁO",
+      "title": "Một cơ hội để phản hồi",
+      "items": [
+        "FALLEN → mở hộp thoại\nĐếm ngược 15 giây theo góp ý",
+        "“Tôi ổn” → hủy\nHoặc chọn gửi ngay",
+        "Hết hạn → thử gửi email\nCần cấu hình và kết nối mạng"
+      ],
+      "note": "Tài liệu góp ý 7 nói modal mở ngay từ FALLEN; engine đồng thời tích lũy bất động để chuyển ALERT. Không phải hai chu kỳ 15 giây nối tiếp. Chưa có source app để kiểm tra, chưa thử gửi email.",
+      "source": "Tài liệu góp ý 7, ghi chú — chưa xác minh mã nguồn hiện tại"
+    },
+    {
+      "kind": "pose",
+      "eyebrow": "06 / MEDIAPIPE POSE",
+      "title": "33 điểm mốc.\nMột đầu vào, chưa phải kết luận.",
+      "items": [
+        "Vai 11 / 12 · Hông 23 / 24",
+        "Gối 25 / 26 · Cổ chân 27 / 28",
+        "Visibility ≠ Fall Score"
+      ],
+      "note": "Sơ đồ nguyên bản chỉ minh họa các khớp chính; không phải toàn bộ 33 điểm. Tọa độ chuẩn hóa không phải đơn vị cm.",
+      "source": "Google AI Edge · Pose Landmarker · Bài gốc 7"
+    },
+    {
+      "eyebrow": "07 / CHẤT LƯỢNG ĐẦU VÀO",
+      "title": "Thiếu dữ liệu\nkhông có nghĩa là an toàn",
+      "items": [
+        "NO_PERSON\nChưa có tư thế hợp lệ",
+        "PARTIAL_POSE\nDữ liệu thân chưa đủ tin cậy",
+        "ID tạm thời\nCó thể đổi khi mất dấu"
+      ],
+      "note": "Theo góp ý, canEvaluateFall = reliableTorso && (hasLowerJoint || (torsoCount === 4 && completeness >= .40)). Không khẳng định luôn bắt buộc thấy chân. Công thức chưa kiểm tra trên source app.",
+      "source": "Tài liệu góp ý 9, ghi chú · Nguồn ứng dụng chưa được cung cấp"
+    },
+    {
+      "eyebrow": "08 / KHUNG BAO",
+      "title": "Nằm ngang\nchỉ là một dấu hiệu",
+      "items": [
+        "W = xmax − xmin\nH = ymax − ymin · r = W/H",
+        "r < 0,75: dọc\nr > 1,30: ngang",
+        "Tọa độ chuẩn hóa\nCần kết hợp chuyển động"
+      ],
+      "note": "Các ngưỡng dẫn theo góp ý 10, chưa xác minh mã hiện tại. Nhãn ngang khác điểm horizontalScore = clamp((r-.9)/.8,0,1). Người chủ động nằm xuống cũng có thể có khung ngang.",
+      "source": "Tài liệu góp ý 10 · Ngưỡng tham khảo, chưa xác minh source"
+    },
+    {
+      "kind": "weights",
+      "eyebrow": "09 / FALL SCORE",
+      "title": "Bảy tín hiệu.\nMột điểm tổng hợp.",
+      "items": [
+        "FallScore = clamp(mROI × Σ wi si)",
+        "Tổng trọng số = 1,00",
+        "0,68 không phải xác suất ngã 68%"
+      ],
+      "note": "Bảy trọng số khớp bài gốc và góp ý nhưng chưa đối chiếu source hiện tại. Ground contact chỉ đếm điểm gần đáy ảnh; không chứng minh chạm sàn. Nếu có classifier, điểm cuối có thể khác ruleScore; chưa xác minh chế độ.",
+      "source": "Bài gốc 9 · Tài liệu góp ý 11"
+    },
+    {
+      "kind": "example",
+      "eyebrow": "10 / VÍ DỤ GIẢ ĐỊNH",
+      "title": "0,521 — cách cộng điểm,\nkhông phải độ chính xác",
+      "items": [
+        "Giả sử mROI = 1",
+        "Chưa dùng model hỗ trợ",
+        "Còn xét hình học và thời gian"
+      ],
+      "note": "Điểm thành phần [.75,.50,.60,0,.50,.60,.50]; tích trọng số [.165,.100,.108,0,.060,.048,.040], tổng .521. Đây là số giả định của tài liệu góp ý, không phải dữ liệu đo.",
+      "source": "Tài liệu góp ý 12 · Ví dụ giả định, không phải kết quả kiểm thử"
+    },
+    {
+      "kind": "states",
+      "eyebrow": "11 / DIỄN BIẾN THEO THỜI GIAN",
+      "title": "Một điểm số\nchưa đủ xác nhận ngã",
+      "items": [
+        "STANDING",
+        "PRE_FALL",
+        "FALLEN",
+        "ALERT"
+      ],
+      "note": "Theo góp ý: STANDING→PRE_FALL khi hạ nhanh và nghiêng thân hoặc score≥.45 tích lũy đủ 3 bước, với cổng người/thân hợp lệ. PRE_FALL→FALLEN: ngang đủ 4 bước hoặc score≥.68 và góc>60° hoặc giảm chiều cao nhanh kèm ≥2 điểm gần đáy. FALLEN→ALERT sau bất động tích lũy 15s. Modal đã mở từ FALLEN. Bộ đếm bước khác giây; cần xác minh code hiện tại.",
+      "source": "Tài liệu góp ý 13–14 · Điều kiện rút gọn, chưa xác minh source"
+    },
+    {
+      "eyebrow": "12 / DEMO & GIỚI HẠN",
+      "title": "Minh bạch để tiến xa hơn",
+      "items": [
+        "Đã có: giao diện DEMO SIM\nChưa đo hiệu quả trên dữ liệu thực",
+        "Tiếp theo: kiểm thử có kiểm soát\nĐứng, cúi, thiếu điểm, ngã mô phỏng",
+        "Giới hạn: sáng, che khuất, góc máy\nQuyền camera và mạng gửi email"
+      ],
+      "note": "Không yêu cầu người cao tuổi ngã thật. Các kịch bản là kế hoạch kiểm thử, chưa thực hiện. Ghi log phát hiện đúng, bỏ sót, báo sai và trạng thái email; không suy ra độ chính xác lâm sàng từ test phần mềm.",
+      "source": "Tài liệu góp ý 16 · Không có số đo thực nghiệm trong bộ đính kèm"
+    }
+  ],
+  "weights": [
+    0.22,
+    0.2,
+    0.18,
+    0.12,
+    0.12,
+    0.08,
+    0.08
+  ],
+  "featureNames": [
+    "Vận tốc dọc",
+    "Góc thân",
+    "Giảm chiều cao",
+    "Đầu thấp hơn hông",
+    "Tư thế ngang",
+    "Vận tốc dọc duy trì",
+    "Điểm mốc gần đáy ảnh"
+  ],
+  "example": [
+    0.75,
+    0.5,
+    0.6,
+    0,
+    0.5,
+    0.6,
+    0.5
+  ]
+}

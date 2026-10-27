@@ -1,0 +1,66 @@
+[
+  {
+    "version": "v3",
+    "frame": 650,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v3",
+    "frame": 1100,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v3",
+    "frame": 1900,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v3",
+    "frame": 2150,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v4",
+    "frame": 650,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v4",
+    "frame": 1100,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v4",
+    "frame": 1900,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  },
+  {
+    "version": "v4",
+    "frame": 2150,
+    "meanAbsolutePixelDelta": 0.0,
+    "maxDelta": 0,
+    "fractionPixelsChanged": 0.0,
+    "exactPixelHashMatch": true
+  }
+]

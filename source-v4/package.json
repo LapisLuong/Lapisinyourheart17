@@ -1,0 +1,28 @@
+{
+  "name": "fallsense-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/v4/index.tsx",
+    "typecheck": "tsc --noEmit",
+    "render:v4": "node scripts/v4-render.mjs",
+    "qa:v4": "node scripts/v4-review.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.1.2",
+    "@remotion/bundler": "4.0.373",
+    "@remotion/cli": "4.0.373",
+    "@remotion/renderer": "4.0.373",
+    "@remotion/three": "4.0.373",
+    "@types/three": "0.176.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.373",
+    "three": "0.176.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}

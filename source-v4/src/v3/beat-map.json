@@ -1,0 +1,960 @@
+{
+  "track": "audio/user-supplied.m4a",
+  "analysisSeconds": 43,
+  "sampleRate": 22050,
+  "hop": 256,
+  "window": 1024,
+  "method": "positive log-spectral flux, local maxima, 160ms refractory; quantized at 60fps",
+  "estimatedPulseBpm": 107.67,
+  "tempoCaveat": "Autocorrelation estimate may be half/double time; not manually listened or a certified musical downbeat grid. Edits use detected transients, not an assumed BPM.",
+  "peaks": [
+    {
+      "seconds": 0.22058956916099773,
+      "strength": 1.3322481146262068
+    },
+    {
+      "seconds": 0.7430385487528345,
+      "strength": 3.167614300068361
+    },
+    {
+      "seconds": 1.1377777777777778,
+      "strength": 0.7810045617062062
+    },
+    {
+      "seconds": 1.3003174603174603,
+      "strength": 2.410325579061601
+    },
+    {
+      "seconds": 1.5209070294784581,
+      "strength": 3.776850573967536
+    },
+    {
+      "seconds": 1.8575963718820863,
+      "strength": 4.2279803052021
+    },
+    {
+      "seconds": 2.2523356009070294,
+      "strength": 0.8457261499435459
+    },
+    {
+      "seconds": 2.6006349206349206,
+      "strength": 2.863983117305673
+    },
+    {
+      "seconds": 3.1579138321995464,
+      "strength": 2.5091770106480387
+    },
+    {
+      "seconds": 3.378503401360544,
+      "strength": 0.844574736429006
+    },
+    {
+      "seconds": 3.7268027210884354,
+      "strength": 3.402170910258345
+    },
+    {
+      "seconds": 4.1099319727891155,
+      "strength": 1.074264165833249
+    },
+    {
+      "seconds": 4.284081632653061,
+      "strength": 2.6591417570916587
+    },
+    {
+      "seconds": 4.481451247165533,
+      "strength": 3.4711580509664763
+    },
+    {
+      "seconds": 4.841360544217687,
+      "strength": 4.028645799047544
+    },
+    {
+      "seconds": 5.23609977324263,
+      "strength": 0.6892568535376046
+    },
+    {
+      "seconds": 5.596009070294785,
+      "strength": 2.9127899380277564
+    },
+    {
+      "seconds": 5.979138321995465,
+      "strength": 1.2619467152567299
+    },
+    {
+      "seconds": 6.141678004535147,
+      "strength": 2.168162071046468
+    },
+    {
+      "seconds": 6.350657596371882,
+      "strength": 1.0168199160763274
+    },
+    {
+      "seconds": 6.698956916099773,
+      "strength": 2.32133592946829
+    },
+    {
+      "seconds": 7.093696145124716,
+      "strength": 0.884268139169452
+    },
+    {
+      "seconds": 7.267845804988662,
+      "strength": 2.1167051278898374
+    },
+    {
+      "seconds": 7.48843537414966,
+      "strength": 3.531297807140246
+    },
+    {
+      "seconds": 7.813514739229025,
+      "strength": 3.7938873785204774
+    },
+    {
+      "seconds": 8.219863945578231,
+      "strength": 0.7439232312915041
+    },
+    {
+      "seconds": 8.568163265306122,
+      "strength": 3.210255068169133
+    },
+    {
+      "seconds": 9.125442176870749,
+      "strength": 2.8351095405990625
+    },
+    {
+      "seconds": 9.334421768707482,
+      "strength": 0.7715133425742648
+    },
+    {
+      "seconds": 9.7059410430839,
+      "strength": 2.0310391353514263
+    },
+    {
+      "seconds": 10.077460317460318,
+      "strength": 1.2632703592520838
+    },
+    {
+      "seconds": 10.448979591836734,
+      "strength": 3.1958138762038204
+    },
+    {
+      "seconds": 10.820498866213152,
+      "strength": 1.3108933131935134
+    },
+    {
+      "seconds": 11.203628117913832,
+      "strength": 0.9451354537834521
+    },
+    {
+      "seconds": 11.563537414965987,
+      "strength": 3.3464684407990792
+    },
+    {
+      "seconds": 11.946666666666667,
+      "strength": 1.1926153381901294
+    },
+    {
+      "seconds": 12.318185941043083,
+      "strength": 0.9255290803503068
+    },
+    {
+      "seconds": 12.654875283446712,
+      "strength": 5.062818101888564
+    },
+    {
+      "seconds": 13.212154195011339,
+      "strength": 6.352456672799772
+    },
+    {
+      "seconds": 13.40952380952381,
+      "strength": 5.606221559840335
+    },
+    {
+      "seconds": 13.781043083900228,
+      "strength": 5.340137465486174
+    },
+    {
+      "seconds": 14.106122448979592,
+      "strength": 2.0344754891698913
+    },
+    {
+      "seconds": 14.338321995464852,
+      "strength": 4.336366775627017
+    },
+    {
+      "seconds": 14.524081632653061,
+      "strength": 7.778811959182247
+    },
+    {
+      "seconds": 14.895600907029479,
+      "strength": 8.758823991832628
+    },
+    {
+      "seconds": 15.081360544217688,
+      "strength": 3.25289399649573
+    },
+    {
+      "seconds": 15.290340136054422,
+      "strength": 0.6239190766354206
+    },
+    {
+      "seconds": 15.638639455782313,
+      "strength": 3.9941322839360565
+    },
+    {
+      "seconds": 16.195918367346938,
+      "strength": 6.410260863049802
+    },
+    {
+      "seconds": 16.381678004535146,
+      "strength": 6.896808311244976
+    },
+    {
+      "seconds": 16.764807256235827,
+      "strength": 4.39362758249414
+    },
+    {
+      "seconds": 17.159546485260773,
+      "strength": 1.741923036671258
+    },
+    {
+      "seconds": 17.322086167800453,
+      "strength": 2.162334144294049
+    },
+    {
+      "seconds": 17.507845804988662,
+      "strength": 5.59526753248993
+    },
+    {
+      "seconds": 17.87936507936508,
+      "strength": 6.519042821464186
+    },
+    {
+      "seconds": 18.07673469387755,
+      "strength": 2.6347623866872665
+    },
+    {
+      "seconds": 18.355374149659863,
+      "strength": 0.5439146519717053
+    },
+    {
+      "seconds": 18.622403628117915,
+      "strength": 7.690460646057156
+    },
+    {
+      "seconds": 19.17968253968254,
+      "strength": 8.097940358705177
+    },
+    {
+      "seconds": 19.365442176870747,
+      "strength": 5.3487130732314645
+    },
+    {
+      "seconds": 19.736961451247165,
+      "strength": 6.126297192637316
+    },
+    {
+      "seconds": 20.305850340136054,
+      "strength": 3.2464475215531645
+    },
+    {
+      "seconds": 20.48,
+      "strength": 4.9379724144664126
+    },
+    {
+      "seconds": 20.851519274376418,
+      "strength": 7.138023957724395
+    },
+    {
+      "seconds": 21.04888888888889,
+      "strength": 3.569050332929416
+    },
+    {
+      "seconds": 21.3275283446712,
+      "strength": 0.7311217583640885
+    },
+    {
+      "seconds": 21.606167800453516,
+      "strength": 4.306396586360807
+    },
+    {
+      "seconds": 22.16344671201814,
+      "strength": 7.669635846766177
+    },
+    {
+      "seconds": 22.349206349206348,
+      "strength": 6.11086428077153
+    },
+    {
+      "seconds": 22.720725623582766,
+      "strength": 6.344492092723762
+    },
+    {
+      "seconds": 23.092244897959183,
+      "strength": 1.2357923860961275
+    },
+    {
+      "seconds": 23.312834467120183,
+      "strength": 1.3656193343636367
+    },
+    {
+      "seconds": 23.76562358276644,
+      "strength": 0.7062757821541282
+    },
+    {
+      "seconds": 24.253242630385486,
+      "strength": 0.8356790968515708
+    },
+    {
+      "seconds": 24.589931972789117,
+      "strength": 4.197010481457576
+    },
+    {
+      "seconds": 24.775691609977326,
+      "strength": 1.949699069828076
+    },
+    {
+      "seconds": 24.961451247165535,
+      "strength": 2.183854355734526
+    },
+    {
+      "seconds": 25.14721088435374,
+      "strength": 5.623876390095464
+    },
+    {
+      "seconds": 25.33297052154195,
+      "strength": 4.768793057236626
+    },
+    {
+      "seconds": 25.704489795918366,
+      "strength": 4.984969535961236
+    },
+    {
+      "seconds": 26.076009070294784,
+      "strength": 2.2505472886914104
+    },
+    {
+      "seconds": 26.261768707482993,
+      "strength": 5.808191843155745
+    },
+    {
+      "seconds": 26.447528344671202,
+      "strength": 8.142578389356423
+    },
+    {
+      "seconds": 26.81904761904762,
+      "strength": 7.870622041496917
+    },
+    {
+      "seconds": 27.01641723356009,
+      "strength": 2.5100947135290754
+    },
+    {
+      "seconds": 27.190566893424037,
+      "strength": 2.6178795177929017
+    },
+    {
+      "seconds": 27.562086167800455,
+      "strength": 5.424408998338128
+    },
+    {
+      "seconds": 27.93360544217687,
+      "strength": 1.8491310001283914
+    },
+    {
+      "seconds": 28.130975056689344,
+      "strength": 3.877549134817025
+    },
+    {
+      "seconds": 28.31673469387755,
+      "strength": 5.713445654059869
+    },
+    {
+      "seconds": 28.688253968253967,
+      "strength": 4.962895555549724
+    },
+    {
+      "seconds": 29.059773242630385,
+      "strength": 2.779060780267286
+    },
+    {
+      "seconds": 29.245532879818594,
+      "strength": 4.45213670935266
+    },
+    {
+      "seconds": 29.431292517006803,
+      "strength": 6.379695345490645
+    },
+    {
+      "seconds": 29.61705215419501,
+      "strength": 1.86744525684426
+    },
+    {
+      "seconds": 29.80281179138322,
+      "strength": 6.989716125829672
+    },
+    {
+      "seconds": 30.00018140589569,
+      "strength": 2.8283641064199068
+    },
+    {
+      "seconds": 30.174331065759638,
+      "strength": 1.6574073834045253
+    },
+    {
+      "seconds": 30.360090702947847,
+      "strength": 2.3218426862964323
+    },
+    {
+      "seconds": 30.545850340136056,
+      "strength": 5.728898458050174
+    },
+    {
+      "seconds": 30.731609977324265,
+      "strength": 2.7341788401529192
+    },
+    {
+      "seconds": 30.91736961451247,
+      "strength": 2.255128854177199
+    },
+    {
+      "seconds": 31.10312925170068,
+      "strength": 7.24973375015367
+    },
+    {
+      "seconds": 31.288888888888888,
+      "strength": 7.988954485184122
+    },
+    {
+      "seconds": 31.660408163265306,
+      "strength": 2.452941203288938
+    },
+    {
+      "seconds": 32.03192743764173,
+      "strength": 1.8299699553622915
+    },
+    {
+      "seconds": 32.229297052154195,
+      "strength": 4.422400461867971
+    },
+    {
+      "seconds": 32.41505668934241,
+      "strength": 5.528174991481293
+    },
+    {
+      "seconds": 32.57759637188209,
+      "strength": 2.689597392104175
+    },
+    {
+      "seconds": 32.78657596371882,
+      "strength": 4.660727487772172
+    },
+    {
+      "seconds": 32.98394557823129,
+      "strength": 1.4264875854297714
+    },
+    {
+      "seconds": 33.158095238095235,
+      "strength": 2.347815380859914
+    },
+    {
+      "seconds": 33.32063492063492,
+      "strength": 0.7675964470779671
+    },
+    {
+      "seconds": 33.52961451247165,
+      "strength": 4.460093757588489
+    },
+    {
+      "seconds": 33.90113378684807,
+      "strength": 2.984980364499894
+    },
+    {
+      "seconds": 34.08689342403628,
+      "strength": 7.988080025108406
+    },
+    {
+      "seconds": 34.27265306122449,
+      "strength": 8.335319102088564
+    },
+    {
+      "seconds": 34.644172335600906,
+      "strength": 5.306828156489546
+    },
+    {
+      "seconds": 34.80671201814059,
+      "strength": 1.2662357863803222
+    },
+    {
+      "seconds": 35.015691609977324,
+      "strength": 2.9380139597399384
+    },
+    {
+      "seconds": 35.2130612244898,
+      "strength": 2.552735674520925
+    },
+    {
+      "seconds": 35.38721088435374,
+      "strength": 3.30014846051257
+    },
+    {
+      "seconds": 35.77034013605442,
+      "strength": 3.757235999650374
+    },
+    {
+      "seconds": 35.95609977324263,
+      "strength": 3.367628010317187
+    },
+    {
+      "seconds": 36.14185941043084,
+      "strength": 1.8944064955314155
+    },
+    {
+      "seconds": 36.327619047619045,
+      "strength": 3.148553673580434
+    },
+    {
+      "seconds": 36.51337868480726,
+      "strength": 4.548687998826971
+    },
+    {
+      "seconds": 36.69913832199546,
+      "strength": 1.89565117574004
+    },
+    {
+      "seconds": 36.884897959183675,
+      "strength": 2.706734190329554
+    },
+    {
+      "seconds": 37.07065759637188,
+      "strength": 6.916945707260444
+    },
+    {
+      "seconds": 37.25641723356009,
+      "strength": 6.235661210440855
+    },
+    {
+      "seconds": 37.62793650793651,
+      "strength": 6.534475965845992
+    },
+    {
+      "seconds": 37.99945578231293,
+      "strength": 2.4345462239862417
+    },
+    {
+      "seconds": 38.185215419501134,
+      "strength": 5.146880630068984
+    },
+    {
+      "seconds": 38.37097505668934,
+      "strength": 7.27277195506987
+    },
+    {
+      "seconds": 38.74249433106576,
+      "strength": 3.029084572812153
+    },
+    {
+      "seconds": 38.93986394557823,
+      "strength": 1.8366017947352657
+    },
+    {
+      "seconds": 39.12562358276644,
+      "strength": 1.0603215954085807
+    },
+    {
+      "seconds": 39.497142857142855,
+      "strength": 3.2442283865325066
+    },
+    {
+      "seconds": 39.86866213151927,
+      "strength": 2.1768014281309433
+    },
+    {
+      "seconds": 40.054421768707485,
+      "strength": 5.635755038460316
+    },
+    {
+      "seconds": 40.24018140589569,
+      "strength": 6.323327691155426
+    },
+    {
+      "seconds": 40.61170068027211,
+      "strength": 5.898725019867779
+    },
+    {
+      "seconds": 40.983219954648526,
+      "strength": 2.5290931836902786
+    },
+    {
+      "seconds": 41.16897959183674,
+      "strength": 3.6373774357960897
+    },
+    {
+      "seconds": 41.35473922902494,
+      "strength": 7.119633744586198
+    },
+    {
+      "seconds": 41.54049886621315,
+      "strength": 2.8461059120017564
+    },
+    {
+      "seconds": 41.72625850340136,
+      "strength": 7.744774757838284
+    },
+    {
+      "seconds": 41.92362811791383,
+      "strength": 3.2178158900752565
+    },
+    {
+      "seconds": 42.09777777777778,
+      "strength": 2.435508251255807
+    },
+    {
+      "seconds": 42.283537414965984,
+      "strength": 2.2147659910204194
+    },
+    {
+      "seconds": 42.4692970521542,
+      "strength": 3.313170175596806
+    },
+    {
+      "seconds": 42.6550566893424,
+      "strength": 1.8862308582302565
+    },
+    {
+      "seconds": 42.840816326530614,
+      "strength": 2.067216067679623
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "name": "Satin edge / macro",
+      "startFrame": 0,
+      "transientSeconds": null,
+      "onsetStrength": null,
+      "motivation": "Intentional opening / phrase hold; not a claimed beat",
+      "endFrame": 45,
+      "inSeconds": 0.0,
+      "outSeconds": 0.75
+    },
+    {
+      "id": 2,
+      "name": "Rim travel",
+      "startFrame": 45,
+      "transientSeconds": 0.743,
+      "onsetStrength": 3.168,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 91,
+      "inSeconds": 0.75,
+      "outSeconds": 1.5166666666666666
+    },
+    {
+      "id": 3,
+      "name": "Eyes / extreme close",
+      "startFrame": 91,
+      "transientSeconds": 1.5209,
+      "onsetStrength": 3.777,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 135,
+      "inSeconds": 1.5166666666666666,
+      "outSeconds": 2.25
+    },
+    {
+      "id": 4,
+      "name": "Guardian arrival",
+      "startFrame": 135,
+      "transientSeconds": 2.2523,
+      "onsetStrength": 0.846,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 290,
+      "inSeconds": 2.25,
+      "outSeconds": 4.833333333333333
+    },
+    {
+      "id": 6,
+      "name": "Gesture anticipation",
+      "startFrame": 290,
+      "transientSeconds": 4.8414,
+      "onsetStrength": 4.029,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 336,
+      "inSeconds": 4.833333333333333,
+      "outSeconds": 5.6
+    },
+    {
+      "id": 7,
+      "name": "Hand / action cut",
+      "startFrame": 336,
+      "transientSeconds": 5.596,
+      "onsetStrength": 2.913,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 402,
+      "inSeconds": 5.6,
+      "outSeconds": 6.7
+    },
+    {
+      "id": 8,
+      "name": "Shield profile",
+      "startFrame": 402,
+      "transientSeconds": 6.699,
+      "onsetStrength": 2.321,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 493,
+      "inSeconds": 6.7,
+      "outSeconds": 8.216666666666667
+    },
+    {
+      "id": 9,
+      "name": "Fragments / assemble",
+      "startFrame": 493,
+      "transientSeconds": 8.2199,
+      "onsetStrength": 0.744,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 582,
+      "inSeconds": 8.216666666666667,
+      "outSeconds": 9.7
+    },
+    {
+      "id": 10,
+      "name": "FallSense wordmark",
+      "startFrame": 582,
+      "transientSeconds": 9.7059,
+      "onsetStrength": 2.031,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 649,
+      "inSeconds": 9.7,
+      "outSeconds": 10.816666666666666
+    },
+    {
+      "id": 11,
+      "name": "Shield edge / graphic match",
+      "startFrame": 649,
+      "transientSeconds": 10.8205,
+      "onsetStrength": 1.311,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 694,
+      "inSeconds": 10.816666666666666,
+      "outSeconds": 11.566666666666666
+    },
+    {
+      "id": 12,
+      "name": "Portal / corner match",
+      "startFrame": 694,
+      "transientSeconds": 11.5635,
+      "onsetStrength": 3.346,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 759,
+      "inSeconds": 11.566666666666666,
+      "outSeconds": 12.65
+    },
+    {
+      "id": 13,
+      "name": "Overview / dive",
+      "startFrame": 759,
+      "transientSeconds": 12.6549,
+      "onsetStrength": 5.063,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 894,
+      "inSeconds": 12.65,
+      "outSeconds": 14.9
+    },
+    {
+      "id": 15,
+      "name": "Overview / readable hero",
+      "startFrame": 894,
+      "transientSeconds": 14.8956,
+      "onsetStrength": 8.759,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1006,
+      "inSeconds": 14.9,
+      "outSeconds": 16.766666666666666
+    },
+    {
+      "id": 16,
+      "name": "Gallery ignition",
+      "startFrame": 1006,
+      "transientSeconds": 16.7648,
+      "onsetStrength": 4.394,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1073,
+      "inSeconds": 16.766666666666666,
+      "outSeconds": 17.883333333333333
+    },
+    {
+      "id": 17,
+      "name": "Overview / runway",
+      "startFrame": 1073,
+      "transientSeconds": 17.8794,
+      "onsetStrength": 6.519,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1151,
+      "inSeconds": 17.883333333333333,
+      "outSeconds": 19.183333333333334
+    },
+    {
+      "id": 18,
+      "name": "Live Monitor / arrival",
+      "startFrame": 1151,
+      "transientSeconds": 19.1797,
+      "onsetStrength": 8.098,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1229,
+      "inSeconds": 19.183333333333334,
+      "outSeconds": 20.483333333333334
+    },
+    {
+      "id": 19,
+      "name": "Pose line detail",
+      "startFrame": 1229,
+      "transientSeconds": 20.48,
+      "onsetStrength": 4.938,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1296,
+      "inSeconds": 20.483333333333334,
+      "outSeconds": 21.6
+    },
+    {
+      "id": 20,
+      "name": "Live Monitor / readable hero",
+      "startFrame": 1296,
+      "transientSeconds": 21.6062,
+      "onsetStrength": 4.306,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1399,
+      "inSeconds": 21.6,
+      "outSeconds": 23.316666666666666
+    },
+    {
+      "id": 21,
+      "name": "AI Training Lab / dolly",
+      "startFrame": 1399,
+      "transientSeconds": 23.3128,
+      "onsetStrength": 1.366,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1475,
+      "inSeconds": 23.316666666666666,
+      "outSeconds": 24.583333333333332
+    },
+    {
+      "id": 22,
+      "name": "Training / readable hero",
+      "startFrame": 1475,
+      "transientSeconds": 24.5899,
+      "onsetStrength": 4.197,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1542,
+      "inSeconds": 24.583333333333332,
+      "outSeconds": 25.7
+    },
+    {
+      "id": 23,
+      "name": "Incidents / turn",
+      "startFrame": 1542,
+      "transientSeconds": 25.7045,
+      "onsetStrength": 4.985,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1654,
+      "inSeconds": 25.7,
+      "outSeconds": 27.566666666666666
+    },
+    {
+      "id": 24,
+      "name": "Incidents / readable hero",
+      "startFrame": 1654,
+      "transientSeconds": 27.5621,
+      "onsetStrength": 5.424,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1721,
+      "inSeconds": 27.566666666666666,
+      "outSeconds": 28.683333333333334
+    },
+    {
+      "id": 25,
+      "name": "Settings / orbit",
+      "startFrame": 1721,
+      "transientSeconds": 28.6883,
+      "onsetStrength": 4.963,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1833,
+      "inSeconds": 28.683333333333334,
+      "outSeconds": 30.55
+    },
+    {
+      "id": 26,
+      "name": "Settings / readable hero",
+      "startFrame": 1833,
+      "transientSeconds": 30.5459,
+      "onsetStrength": 5.729,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1900,
+      "inSeconds": 30.55,
+      "outSeconds": 31.666666666666668
+    },
+    {
+      "id": 27,
+      "name": "Landmark / spatial thread",
+      "startFrame": 1900,
+      "transientSeconds": 31.6604,
+      "onsetStrength": 2.453,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 1989,
+      "inSeconds": 31.666666666666668,
+      "outSeconds": 33.15
+    },
+    {
+      "id": 28,
+      "name": "Eye-circle match",
+      "startFrame": 1989,
+      "transientSeconds": 33.1581,
+      "onsetStrength": 2.348,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 2079,
+      "inSeconds": 33.15,
+      "outSeconds": 34.65
+    },
+    {
+      "id": 29,
+      "name": "UI / shield arc",
+      "startFrame": 2079,
+      "transientSeconds": 34.6442,
+      "onsetStrength": 5.307,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 2157,
+      "inSeconds": 34.65,
+      "outSeconds": 35.95
+    },
+    {
+      "id": 30,
+      "name": "Guardian / proud hero",
+      "startFrame": 2157,
+      "transientSeconds": 35.9561,
+      "onsetStrength": 3.368,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 2258,
+      "inSeconds": 35.95,
+      "outSeconds": 37.63333333333333
+    },
+    {
+      "id": 31,
+      "name": "FallSense / resolve",
+      "startFrame": 2258,
+      "transientSeconds": 37.6279,
+      "onsetStrength": 6.534,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 2370,
+      "inSeconds": 37.63333333333333,
+      "outSeconds": 39.5
+    },
+    {
+      "id": 32,
+      "name": "Academic handoff",
+      "startFrame": 2370,
+      "transientSeconds": 39.4971,
+      "onsetStrength": 3.244,
+      "motivation": "Measured spectral transient; validated local-maximum / spacing",
+      "endFrame": 2580,
+      "inSeconds": 39.5,
+      "outSeconds": 43.0
+    }
+  ]
+}
