@@ -1,0 +1,9 @@
+BẢN BÁO CÁO MỘT CỘT
+
+Mở file .docx bằng Microsoft Word để sửa tiếp. Mở .pdf bằng Preview để xem bản dàn trang đã kiểm tra (8 trang). Số trang Word có thể thay đổi nhẹ theo phiên bản phần mềm/font trên máy.
+
+Định dạng: A4; lề trái 3 cm, phải 2 cm, trên/dưới 2 cm; Times New Roman 13 pt; giãn dòng 1,5; căn đều hai lề; thụt đầu dòng 1 cm. Bảng/sơ đồ dùng cỡ chữ nhỏ hơn để dễ đọc và vừa trang. Đánh số trang ở chân trang. Tài liệu tham khảo bắt đầu ở trang mới.
+
+Hai hình sơ đồ được dựng lại bằng bảng và chữ Word, sửa trực tiếp được, tránh lỗi dấu tiếng Việt trong ảnh. Giữ 66 đoạn văn có nội dung và 5 công thức Office Math của bản gốc. Không sửa các nhận định kỹ thuật, số liệu, trích dẫn hay tự điền kết quả kiểm thử còn [điền].
+
+Đây là kiểu trình bày học thuật phổ biến; chưa có mẫu quy định riêng của trường/khoa để đối chiếu. Công thức giữ Cambria Math, thường có cùng Microsoft Word. PDF đã xuất và xem lại trên Linux, chưa kiểm thử trực tiếp trong Word macOS.
